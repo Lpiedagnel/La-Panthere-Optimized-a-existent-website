@@ -1127,3 +1127,7 @@ h4 {
         margin: auto;
     }
 }
+
+blockquote {
+    border-left: none;
+}
