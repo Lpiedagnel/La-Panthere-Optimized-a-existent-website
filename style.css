@@ -705,11 +705,6 @@ p {
     font-weight: 700;
 }
 
-.social {
-    max-width: 400px;
-    margin: auto auto auto auto;
-}
-
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -1073,4 +1068,62 @@ h4 {
 
 .review__author {
     color: #646464 !important;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #F3976C;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__label {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 1%;
+    color: #e8e8e8 !important;
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.footer__list {
+    list-style: none;
+}
+
+.footer__link {
+    color: #FFFFFF !important;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.footer__social {
+    display: flex;
+    flex-direction: row;
+    margin: auto 10%;
+    padding: 2% 0 0 0;  
+}
+
+.social {
+    margin: 0 5%;
+    color: #ffffff !important;
+}
+
+@media (max-width: 767px) {
+    .footer__container {
+        flex-direction: column;
+        padding: 2%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .footer__social {
+        margin: auto;
+    }
 }
