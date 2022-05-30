@@ -784,6 +784,7 @@ h4 {
 .tc-white {
     color: #ffffff !important;
     font-weight: 800;
+    position: relative;
 }
 
 .btn-atomic-tangerine {
@@ -1051,4 +1052,25 @@ h4 {
     .bold-link {
         font-size: 1.2em;
     }
+}
+
+/* Optimization 2022 */
+
+.title-grey {
+    color: #555 !important;
+    max-width: 75%;
+    margin: 2% auto;
+}
+
+.review {
+    font-size: 1.3em;
+}
+
+.review__paragraph {
+    font-style: italic;
+    color: #525252 !important;
+}
+
+.review__author {
+    color: #646464 !important;
 }
