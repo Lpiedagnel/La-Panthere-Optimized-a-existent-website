@@ -1121,3 +1121,7 @@ h4 {
 blockquote {
     border-left: none;
 }
+
+.navbar__brand {
+    height: 2em;
+}
