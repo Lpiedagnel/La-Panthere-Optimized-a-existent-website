@@ -1122,6 +1122,8 @@ blockquote {
     border-left: none;
 }
 
+
+
 .navbar__brand {
-    height: 2em;
+    height: 4rem !important;
 }
