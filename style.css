@@ -1127,3 +1127,7 @@ blockquote {
 .navbar__brand {
     height: 4rem !important;
 }
+
+.portfolio-thumb {
+    width: 100%;
+}
